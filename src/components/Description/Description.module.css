@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 6rem 0 8rem 0;
+    display: flex;
+    gap: 4rem;
+}
+.wrapper{
+    background-color: white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.counter{
+    display: flex;
+    gap: 10px;
+}
+.minus{
+    background-color: rgb(234, 150, 150);
+    color: white;
+    padding: 0 0.4rem;
+}
+.add{
+    background-color: rgb(151, 234, 150);
+    color: white;
+    padding: 0 0.4rem;
+}
+.minus:hover, .add:hover{
+    cursor: pointer;
+    box-shadow: 3px 5px 5px rgb(54, 107, 125);
+}
+.image{
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+}
+.description{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.descriptionTitle{
+    font-size: 30px;
+    font-weight: 400;
+}
+.descriptionText{
+    font-size: 20px;
+    line-height: 1.7;
+}
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.back{
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.back:hover{
+    background-color: antiquewhite;
+}
+.add{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #bcf7bc;
+    color: black;
+    border: none;
+}
+.add:hover{
+    cursor: pointer;
+    box-shadow: 3px 2px 3px rgb(54, 107, 125);
+}

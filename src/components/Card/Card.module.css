@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.card{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 3px 5px 20px lightblue;
+    max-width: 400px;
+    justify-content: space-between;
+}
+
+.rows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter{
+    display: flex;
+    gap: 10px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+.minus{
+    background-color: rgb(234, 150, 150);
+    color: white;
+    padding: 0 0.4rem;
+}
+
+.add{
+    background-color: rgb(151, 234, 150);
+    color: white;
+    padding: 0 0.4rem;
+}
+
+.addToCart:hover{
+    cursor: pointer;
+    box-shadow: 3px 2px 2px rgb(54, 107, 125);
+}
+
+.rating{
+    margin-top: 0.5rem;
+}
+
+.addToCart{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #bcf7bc;
+}
+
+
+@media (max-width: 1045px){
+
+    .card{
+        max-width: 100%;
+    }
+
+}
